@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E7431522A680347005E5CA9 /* SmartSHOP___Powered_by_AIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7431512A680347005E5CA9 /* SmartSHOP___Powered_by_AIApp.swift */; };
+		4E7431542A680347005E5CA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7431532A680347005E5CA9 /* ContentView.swift */; };
+		4E7431562A680349005E5CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7431552A680349005E5CA9 /* Assets.xcassets */; };
+		4E7431592A680349005E5CA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7431582A680349005E5CA9 /* Preview Assets.xcassets */; };
+		4E7431632A680349005E5CA9 /* SmartSHOP___Powered_by_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7431622A680349005E5CA9 /* SmartSHOP___Powered_by_AITests.swift */; };
+		4E74316D2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74316C2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITests.swift */; };
+		4E74316F2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74316E2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITestsLaunchTests.swift */; };
+		4E74317F2A680988005E5CA9 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E74317E2A680988005E5CA9 /* Manager.swift */; };
+		4E79AFAF2ABD21DA0002F833 /* ColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4E79AFAE2ABD21DA0002F833 /* ColorKit */; };
+		4E8E860D2A750C5A00DDF7F8 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E860C2A750C5A00DDF7F8 /* ScannerView.swift */; };
+		4E8E860F2A750C7900DDF7F8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8E860E2A750C7900DDF7F8 /* CameraView.swift */; };
+		4E91F2FF2BABD914004EC5C9 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4E91F2FE2BABD914004EC5C9 /* MobileNetV2.mlmodel */; };
+		4ED37C482ABA1B2200648A0D /* ScannerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED37C472ABA1B2200648A0D /* ScannerView2.swift */; };
+		4EEE447D2BB0DFD50004C0EC /* BarcodeScannerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE447C2BB0DFD50004C0EC /* BarcodeScannerClass.swift */; };
+		4EEE447F2BB0DFEB0004C0EC /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE447E2BB0DFEB0004C0EC /* BarcodeScannerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E74315F2A680349005E5CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7431462A680347005E5CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E74314D2A680347005E5CA9;
+			remoteInfo = "SmartSHOP - Powered by AI";
+		};
+		4E7431692A680349005E5CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7431462A680347005E5CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E74314D2A680347005E5CA9;
+			remoteInfo = "SmartSHOP - Powered by AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E74314E2A680347005E5CA9 /* SmartSHOP - Powered by AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartSHOP - Powered by AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7431512A680347005E5CA9 /* SmartSHOP___Powered_by_AIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartSHOP___Powered_by_AIApp.swift"; sourceTree = "<group>"; };
+		4E7431532A680347005E5CA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E7431552A680349005E5CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7431582A680349005E5CA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E74315E2A680349005E5CA9 /* SmartSHOP - Powered by AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartSHOP - Powered by AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7431622A680349005E5CA9 /* SmartSHOP___Powered_by_AITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartSHOP___Powered_by_AITests.swift"; sourceTree = "<group>"; };
+		4E7431682A680349005E5CA9 /* SmartSHOP - Powered by AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartSHOP - Powered by AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E74316C2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartSHOP___Powered_by_AIUITests.swift"; sourceTree = "<group>"; };
+		4E74316E2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartSHOP___Powered_by_AIUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		4E74317E2A680988005E5CA9 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		4E8E860C2A750C5A00DDF7F8 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		4E8E860E2A750C7900DDF7F8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		4E91F2FE2BABD914004EC5C9 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		4ED37C472ABA1B2200648A0D /* ScannerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView2.swift; sourceTree = "<group>"; };
+		4EEE447C2BB0DFD50004C0EC /* BarcodeScannerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerClass.swift; sourceTree = "<group>"; };
+		4EEE447E2BB0DFEB0004C0EC /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E74314B2A680347005E5CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E79AFAF2ABD21DA0002F833 /* ColorKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E74315B2A680349005E5CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7431652A680349005E5CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E7431452A680347005E5CA9 = {
+			isa = PBXGroup;
+			children = (
+				4E7431512A680347005E5CA9 /* SmartSHOP___Powered_by_AIApp.swift */,
+				4E7431502A680347005E5CA9 /* SmartSHOP - Powered by AI */,
+				4E7431612A680349005E5CA9 /* SmartSHOP - Powered by AITests */,
+				4E74316B2A680349005E5CA9 /* SmartSHOP - Powered by AIUITests */,
+				4E74314F2A680347005E5CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E74314F2A680347005E5CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E74314E2A680347005E5CA9 /* SmartSHOP - Powered by AI.app */,
+				4E74315E2A680349005E5CA9 /* SmartSHOP - Powered by AITests.xctest */,
+				4E7431682A680349005E5CA9 /* SmartSHOP - Powered by AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7431502A680347005E5CA9 /* SmartSHOP - Powered by AI */ = {
+			isa = PBXGroup;
+			children = (
+				4E74317E2A680988005E5CA9 /* Manager.swift */,
+				4E7431532A680347005E5CA9 /* ContentView.swift */,
+				4EEE447C2BB0DFD50004C0EC /* BarcodeScannerClass.swift */,
+				4EEE447E2BB0DFEB0004C0EC /* BarcodeScannerView.swift */,
+				4E8E860C2A750C5A00DDF7F8 /* ScannerView.swift */,
+				4ED37C472ABA1B2200648A0D /* ScannerView2.swift */,
+				4E8E860E2A750C7900DDF7F8 /* CameraView.swift */,
+				4E91F2FE2BABD914004EC5C9 /* MobileNetV2.mlmodel */,
+				4E7431552A680349005E5CA9 /* Assets.xcassets */,
+				4E7431572A680349005E5CA9 /* Preview Content */,
+			);
+			path = "SmartSHOP - Powered by AI";
+			sourceTree = "<group>";
+		};
+		4E7431572A680349005E5CA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E7431582A680349005E5CA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E7431612A680349005E5CA9 /* SmartSHOP - Powered by AITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E7431622A680349005E5CA9 /* SmartSHOP___Powered_by_AITests.swift */,
+			);
+			path = "SmartSHOP - Powered by AITests";
+			sourceTree = "<group>";
+		};
+		4E74316B2A680349005E5CA9 /* SmartSHOP - Powered by AIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E74316C2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITests.swift */,
+				4E74316E2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITestsLaunchTests.swift */,
+			);
+			path = "SmartSHOP - Powered by AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E74314D2A680347005E5CA9 /* SmartSHOP - Powered by AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7431722A680349005E5CA9 /* Build configuration list for PBXNativeTarget "SmartSHOP - Powered by AI" */;
+			buildPhases = (
+				4E74314A2A680347005E5CA9 /* Sources */,
+				4E74314B2A680347005E5CA9 /* Frameworks */,
+				4E74314C2A680347005E5CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartSHOP - Powered by AI";
+			packageProductDependencies = (
+				4E79AFAE2ABD21DA0002F833 /* ColorKit */,
+			);
+			productName = "SmartSHOP - Powered by AI";
+			productReference = 4E74314E2A680347005E5CA9 /* SmartSHOP - Powered by AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E74315D2A680349005E5CA9 /* SmartSHOP - Powered by AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7431752A680349005E5CA9 /* Build configuration list for PBXNativeTarget "SmartSHOP - Powered by AITests" */;
+			buildPhases = (
+				4E74315A2A680349005E5CA9 /* Sources */,
+				4E74315B2A680349005E5CA9 /* Frameworks */,
+				4E74315C2A680349005E5CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E7431602A680349005E5CA9 /* PBXTargetDependency */,
+			);
+			name = "SmartSHOP - Powered by AITests";
+			productName = "SmartSHOP - Powered by AITests";
+			productReference = 4E74315E2A680349005E5CA9 /* SmartSHOP - Powered by AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E7431672A680349005E5CA9 /* SmartSHOP - Powered by AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7431782A680349005E5CA9 /* Build configuration list for PBXNativeTarget "SmartSHOP - Powered by AIUITests" */;
+			buildPhases = (
+				4E7431642A680349005E5CA9 /* Sources */,
+				4E7431652A680349005E5CA9 /* Frameworks */,
+				4E7431662A680349005E5CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E74316A2A680349005E5CA9 /* PBXTargetDependency */,
+			);
+			name = "SmartSHOP - Powered by AIUITests";
+			productName = "SmartSHOP - Powered by AIUITests";
+			productReference = 4E7431682A680349005E5CA9 /* SmartSHOP - Powered by AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E7431462A680347005E5CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4E74314D2A680347005E5CA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4E74315D2A680349005E5CA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4E74314D2A680347005E5CA9;
+					};
+					4E7431672A680349005E5CA9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4E74314D2A680347005E5CA9;
+					};
+				};
+			};
+			buildConfigurationList = 4E7431492A680347005E5CA9 /* Build configuration list for PBXProject "SmartSHOP - Powered by AI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E7431452A680347005E5CA9;
+			packageReferences = (
+				4E79AFAD2ABD21DA0002F833 /* XCRemoteSwiftPackageReference "ColorKit" */,
+			);
+			productRefGroup = 4E74314F2A680347005E5CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E74314D2A680347005E5CA9 /* SmartSHOP - Powered by AI */,
+				4E74315D2A680349005E5CA9 /* SmartSHOP - Powered by AITests */,
+				4E7431672A680349005E5CA9 /* SmartSHOP - Powered by AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E74314C2A680347005E5CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7431592A680349005E5CA9 /* Preview Assets.xcassets in Resources */,
+				4E7431562A680349005E5CA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E74315C2A680349005E5CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7431662A680349005E5CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E74314A2A680347005E5CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E91F2FF2BABD914004EC5C9 /* MobileNetV2.mlmodel in Sources */,
+				4ED37C482ABA1B2200648A0D /* ScannerView2.swift in Sources */,
+				4E7431542A680347005E5CA9 /* ContentView.swift in Sources */,
+				4E74317F2A680988005E5CA9 /* Manager.swift in Sources */,
+				4EEE447D2BB0DFD50004C0EC /* BarcodeScannerClass.swift in Sources */,
+				4E7431522A680347005E5CA9 /* SmartSHOP___Powered_by_AIApp.swift in Sources */,
+				4EEE447F2BB0DFEB0004C0EC /* BarcodeScannerView.swift in Sources */,
+				4E8E860F2A750C7900DDF7F8 /* CameraView.swift in Sources */,
+				4E8E860D2A750C5A00DDF7F8 /* ScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E74315A2A680349005E5CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7431632A680349005E5CA9 /* SmartSHOP___Powered_by_AITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7431642A680349005E5CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E74316F2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITestsLaunchTests.swift in Sources */,
+				4E74316D2A680349005E5CA9 /* SmartSHOP___Powered_by_AIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E7431602A680349005E5CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E74314D2A680347005E5CA9 /* SmartSHOP - Powered by AI */;
+			targetProxy = 4E74315F2A680349005E5CA9 /* PBXContainerItemProxy */;
+		};
+		4E74316A2A680349005E5CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E74314D2A680347005E5CA9 /* SmartSHOP - Powered by AI */;
+			targetProxy = 4E7431692A680349005E5CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E7431702A680349005E5CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E7431712A680349005E5CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				COREML_CODEGEN_LANGUAGE = Swift;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7431732A680349005E5CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartSHOP - Powered by AI/Preview Content\"";
+				DEVELOPMENT_TEAM = D8HPNSXWK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "SmartSHOP - Powered by AI uses the camera to analyze what you scan.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sresri.SmartSHOP---Powered-by-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E7431742A680349005E5CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartSHOP - Powered by AI/Preview Content\"";
+				DEVELOPMENT_TEAM = D8HPNSXWK3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "SmartSHOP - Powered by AI uses the camera to analyze what you scan.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sresri.SmartSHOP---Powered-by-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E7431762A680349005E5CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HPNSXWK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sresri.SmartSHOP---Powered-by-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartSHOP - Powered by AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartSHOP - Powered by AI";
+			};
+			name = Debug;
+		};
+		4E7431772A680349005E5CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HPNSXWK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sresri.SmartSHOP---Powered-by-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartSHOP - Powered by AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartSHOP - Powered by AI";
+			};
+			name = Release;
+		};
+		4E7431792A680349005E5CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HPNSXWK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sresri.SmartSHOP---Powered-by-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SmartSHOP - Powered by AI";
+			};
+			name = Debug;
+		};
+		4E74317A2A680349005E5CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8HPNSXWK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sresri.SmartSHOP---Powered-by-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SmartSHOP - Powered by AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E7431492A680347005E5CA9 /* Build configuration list for PBXProject "SmartSHOP - Powered by AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7431702A680349005E5CA9 /* Debug */,
+				4E7431712A680349005E5CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7431722A680349005E5CA9 /* Build configuration list for PBXNativeTarget "SmartSHOP - Powered by AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7431732A680349005E5CA9 /* Debug */,
+				4E7431742A680349005E5CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7431752A680349005E5CA9 /* Build configuration list for PBXNativeTarget "SmartSHOP - Powered by AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7431762A680349005E5CA9 /* Debug */,
+				4E7431772A680349005E5CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7431782A680349005E5CA9 /* Build configuration list for PBXNativeTarget "SmartSHOP - Powered by AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7431792A680349005E5CA9 /* Debug */,
+				4E74317A2A680349005E5CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E79AFAD2ABD21DA0002F833 /* XCRemoteSwiftPackageReference "ColorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Boris-Em/ColorKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E79AFAE2ABD21DA0002F833 /* ColorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E79AFAD2ABD21DA0002F833 /* XCRemoteSwiftPackageReference "ColorKit" */;
+			productName = ColorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4E7431462A680347005E5CA9 /* Project object */;
+}
